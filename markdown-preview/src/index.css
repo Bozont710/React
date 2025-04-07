@@ -1,0 +1,61 @@
+html {
+  background: linear-gradient(#72a852, #05f707);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#rootDiv {
+  margin-top: 100px;
+}
+
+#editor {
+  border: none;
+  border-radius: 10px;
+  width: 600px;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #42f57e;
+}
+
+#preview {
+  border-radius: 10px;
+  width: 600px;
+  padding: 10px;
+  background-color: #42f57e;
+}
+
+#preview h1 {
+  border-bottom: 2px solid black;
+}
+
+#preview h2 {
+  border-bottom: 1px solid black;
+}
+
+#preview code, pre {
+  background-color: white;
+}
+
+#preview blockquote {
+  border-left: 3px solid black;
+  padding-left: 4px;
+}
+
+#preview table {
+  border-collapse: collapse;
+}
+
+#preview table th, #preview table td {
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 2px solid black;
+}
+
+#preview img {
+  display: block;
+  max-width: 80%;
+  margin: 0 auto;
+}
